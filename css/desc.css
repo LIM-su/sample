@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+* {margin: 0;padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
+
+
+ol,ul {list-style: none;}
+
+a:link { text-decoration: none; color: #333;}
+a:active {text-decoration: none;color: #333;}
+a:hover {text-decoration: none;color: #333;}
+a:focus {text-decoration: none;color: #333;}
+a:visited {text-decoration: none;color: #333;}
+
+
+
+body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; color:#333;}
+
+
+
+
+
+
+.bg1{background:#f5f2ed;}
+
+.bg2{background: url("../project/project2_busanfolk/bg_busanfolk.png") no-repeat center top;}
+
+.bg3{background: url("../../%25E2%2598%2585%25EB%25AA%25A9%25EC%2597%2585/image-from-rawpixel-id-585149-original.eps") no-repeat center;
+}
+
+.bg4{background: url("../project/project5_bescented/bg_bescented.png") no-repeat center -15px;
+}
+
+
+
+
+.project_inner{
+	max-width: 1200px;
+	margin:auto;
+    padding-bottom: 150px;
+    padding-top:150px;
+
+}
+
+.project_img{margin:auto; }
+
+
+
+
+
+
+
+
+
+
+
+/*이미지들어갈곳*/
+
+.re_img{
+	width: 100%; 
+}
+
+
+	
+	
+
+
+/* 스타미피부과-링크 */
+
+.starmi_link_btn {
+	position: absolute;
+	top:14.2%;
+	left:40%;
+	margin-left:-90px;
+}
+
+.starmi_link_btn2{ position: absolute; top: 14.2%; left: 60%; margin-left: 60px;}
+
+
+.susan_link_btn {position: absolute;
+	top:14.2%;
+	left:40%;
+    margin-left:-90px;}
+
+
+/*로고디자인*/
+
+.concept{}
+.concept_inner{position:relative; top:950px;}
+.concept_inner li{float: left; width: calc(100%/3); height: 50px; text-align: center; display: inline-block; background: #684a07;}
+.concept_inner li a{color: white;}
+.concept_inner li:hover{background:#fff;transition: 0.3s;}
+.concept_inner li:hover a{color:#684a07; transition: 0.3s; display: block;}
+
+
+
+
+
+
+/* 뒤로가기 버튼*/
+
+.back{}
+
+
+.back_button{
+	text-transform: uppercase;
+	display: inline-block;
+	background: #242223;
+    margin:0 44%;
+	width:80px;
+	height: 80px;
+	padding:22px 20px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	color:#fff;
+	transition: 0.5s;
+}
+
+.back_button a{
+	color: #fff;
+
+}
+
+.back_button:hover {
+	background: #f5f2ed;
+	color: #242223;
+}
+
+.back_button:hover a{
+	color: #242223;
+}
+
+.starmi_link_btn {width: 100px; height: 100px;  text-align: center; padding-top: 30px; box-sizing: border-box;font-size: 20px; margin-left: 4%;}
+.starmi_link_btn:hover{background: #495dc0;transition: 1s;}
+.starmi_link_btn:hover a{color: white; transition: 1s;}
+.starmi_link_btn a{display:block;height: 100%;}
+
+
+.susan_link_btn{width: 100px; height: 100px;  text-align: center; padding-top: 30px; box-sizing: border-box;font-size: 20px; border-radius: 30%;}
+.susan_link_btn:hover{background: #110b43;transition: 1s;}
+.susan_link_btn:hover a{color: white; transition: 1s;}
+.susan_link_btn a{display:block;height: 100%;}
+
+
+
+.starmi_link_btn2 {width: 100px; height: 100px; text-align: center; padding-top: 15px; box-sizing: border-box;font-size: 20px; border-radius: 30%;}
+.starmi_link_btn2:hover{background: #110b43;transition: 1s;}
+.starmi_link_btn2:hover a{color: white; transition: 1s;}
+.starmi_link_btn2 a{display:block;height: 100%;}
+
+
+/* //뒤로가기 버튼*/
+
+
+
+
+
+
+@media all and (max-width:780px) {
+	
+
+.re_img{
+	width: 100%;
+}
+
+	
+	
+    
+	
+/*  website 링크  */
+
+.re_btn_img	{
+	width: 70%;
+}
+	
+/*주간여행-링크*/
+
+.traval_link_btn {
+	/*position: absolute;
+	top:10%;
+	left:50%;*/
+	margin-left:-45px;
+}
+
+	
+/* 스타미피부과-링크 */
+
+.starmi_link_btn {
+	/*position: absolute;
+	top:14.2%;
+	left:50%;*/
+    margin-left:-60px;
+}
+	
+   
+	
+	
+	
+/* //website 링크*/	
+	
+
+	
+	
+	
+/* 동영상부분 */
+	
+.video_guide{
+	position:absolute;
+	top:1%;
+	right:-13%;
+	width:50%;
+	
+}
+	
+.frame{
+	position: absolute;
+    top:-5;
+	right:48% ;
+	z-index: 1;
+	
+}
+	
+.frame_img{
+	width:101%;
+	margin-left:-2.5px;
+    margin-top:9px;
+
+}	 
+	
+	
+	
+
+/* // 동영상부분 */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} /*전체*/
+
+
+
+
+
+

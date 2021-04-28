@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Open+Sans&display=swap');
+
+/* 여백 초기화  */
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ol, ul { list-style:none; }
+
+/* 하이퍼링크 설정 */
+a:link { text-decoration:none; color:#000; }
+a:hover { text-decoration:none; color:#000; }
+a:visited { text-decoration:none; color:#000; }
+a:active { text-decoration:none; color:#000; }
+a:focus { text-decoration:none; color:#000; }
+
+
+legend, caption { display:none; }
+fieldset { border:0; }
+input, select, textarea { vertical-align:middle; border: 0; }
+
+
+body { font-family: 'Open Sans', 'Noto Sans KR', serif; font-size:16px; line-height:26px; color:#000; }
+#wrap { min-width:1200px; overflow: hidden; }
+
+#header{width: 100%; background: #1b2753;}
+#header_inner{width:1200px; height: 85px; margin-top: 20px; margin: 0 auto; position: relative; z-index: 99;}
+#header_inner img{position: absolute; left: 10px; top: 10%; width: 200px;}
+
+#header_inner .gnb{float: right; }
+#header_inner .gnb li{text-align: center;}
+#header_inner .gnb>li{float: left;}
+#header_inner .gnb>li>a{ display: block; font-size: 20px; font-weight: bold; padding: 30px 40px; color: white;}
+
+#header_inner  .gnb li a{display: block; color: white; box-sizing: border-box;}
+#header_inner .dp2 li a{display: block; padding: 10px; color: white; }
+
+#header_inner .dp2 li a:hover{transform: scale(1.3); transition: 0.5s;}
+.dp2_bg p{ background: url('../images/main/%EC%83%81%EB%8B%A8%EB%A9%94%EB%89%B4%20%EC%BB%B5.png') no-repeat; width: 150px; height: 150px; position: absolute;left: 70px; top:30px}
+
+.dp2_bg { position: absolute; left: 0; top: 85px; width: 100%; height: 200px; background:rgba(13, 28, 83, 0.79); z-index: 9;}
+
+
+
+#quick_menu{ position: fixed; right: 100px; bottom: 400px; width: 10px; height: 40px; z-index:999; }
+
+
+#banner{background: url(../images/sub/%EB%B0%B0%EB%84%88.png) no-repeat center center; width: 100%; height: 500px; margin: 0 auto;}
+#banner #banner_inner{width: 1200px; height: 510px; position: relative; margin: 0 auto; color: white;}
+
+#banner #banner_inner img{position: absolute; right: 50%;transform: translateX(80px); top: 20%;}
+#banner #banner_inner h1{position: absolute; right: 50%; transform: translateX(100px); top: 40%; font-size: 50px;}
+#banner #banner_inner p span{border-bottom: 1px white solid; width: 500px;position: absolute; right: 28%; top: 55%;}
+#banner #banner_inner h2{position: absolute; right: 45%;transform: translate(50px); top: 60%;}
+#banner #banner_inner .banner_gnb{position: absolute; left: 20%; bottom: 10%}
+#banner #banner_inner .banner_gnb li{float: left; padding: 10px 50px; background: white; border-radius: 15px; margin: 20px; color: #1b2753;}
+#banner #banner_inner .banner_gnb li a{display: block; color: #1b2753;}
+#banner #banner_inner .banner_gnb li:hover{background: #1b2753; transition: 0.3s; }
+#banner #banner_inner .banner_gnb li a:hover{color: white;}
+
+
+#inner{width: 1200px; margin: 30px auto; z-index: -9;}
+#best{position: relative;}
+#best h1{text-align: center; font-size: 40px; padding: 50px 0; }
+#best .box{width: 1200px; height: 3px; background: #1b2753;}
+#best ul{display: flex; flex-wrap: wrap; padding: 50px; }
+#best li{width: calc(100%/3); text-align: center;font-size:25px; }
+
+#best .button_right{position: absolute; top: 300px;right: 50px;}
+#best .button_left{position: absolute; top: 300px;left: 50px; transform: rotate(180deg); }
+
+#best ul li img:hover{transform:scale(1.1); transition: 1s;}
+
+#menu ul li img:hover{transform:scale(1.1); transition: 1s;}
+
+#menu h1{text-align: center; font-size: 40px; padding-top: 100px; padding-bottom: 50px; }
+#menu .box{width: 1200px; height: 3px; background: #1b2753;}
+#menu ul{display: flex; flex-wrap: wrap; padding: 50px;}
+#menu  ul li{width: calc(100%/3); text-align: center; font-size:25px; padding: 30px; box-sizing: border-box;}
+
+#number{padding-left: 35%; padding-top: 80px; padding-bottom: 100px;}
+#number img{width: 30px;}
+#number li{float: left; }
+#number li a{padding: 20px;}
+#number .button_left img{transform: rotate(180deg)}
+
+
+
+footer{background: #2e2e2e; width: 100%; height: 470px;}
+
+#footer_inner{width: 1200px; margin: 300px auto; position: relative;}
+.footer_gnb{width: 100%; background:background: #717171; }
+.footer_gnb2{background: #717171; padding: 10px; height: 60px;}
+
+#footer_inner .footer_gnb .footer_gnb2 li a{float: left; width: calc(100%/7);color: white; text-align: center;}
+
+footer p img{width: 100px; position: absolute; right: 50%; transform: translateX(50%);}
+
+#footer_inner .sns{color: dimgray; font-weight: bold; float: right; }
+
+#footer_inner .sns div{width: 10px; height: 30px; float: left; background: #ddd; padding: 10px 20px; margin: 10px; border-radius:50px; }
+
+#footer_inner p{color: white; text-align: center; padding-top: 50px}
+
+#footer_inner .footer_des{padding-top: 50px;}
+
+
+
+
