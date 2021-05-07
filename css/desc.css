@@ -170,8 +170,7 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 
 
-
-
+/*포트폴리오*/
 
 
 /* 뒤로가기 버튼*/
@@ -212,25 +211,25 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 
 /*청구수산 버튼*/
-.starmi_link_btn {width: 100px; height: 100px;  text-align: center; padding-top: 30px; box-sizing: border-box;font-size: 20px; margin-left: 4%;}
-.starmi_link_btn:hover{background: #495dc0;transition: 1s;}
+.starmi_link_btn {position: absolute; left: 62%; top: 13%; width: 100px; height: 100px;  text-align: center; padding-top: 30px; box-sizing: border-box;font-size: 20px; margin-left: 4%; background: #f8c9bd;}
+.starmi_link_btn:hover{background: #495dc0;border-radius: 30%; transition: 1s;}
 .starmi_link_btn:hover a{color: white; transition: 1s;}
 .starmi_link_btn a{display:block;height: 100%;}
 
 
-.susan_link_btn{background: #110b43; position: absolute; top: 0.5%; width: 100px; height: 100px;  text-align: center; padding-top: 30px; box-sizing: border-box;font-size: 20px; border-radius: 30%; }
+.susan_link_btn{background: #110b43; position: absolute; top: 0.3%; width: 100px; height: 100px;  text-align: center; padding-top: 30px; box-sizing: border-box;font-size: 20px; border-radius: 30%; }
 .susan_link_btn:hover{background: #ccc;transition: 0.5s;}
 .susan_link_btn:hover a{color: black; transition: 0.5s;}
 .susan_link_btn a{display:block;height: 100%;color: white;}
 .susan_link_btn span{font-size: 15px; margin-top: -10px; display: block;}
 
 
-.starmi_link_btn2 {background: #110b43; position: absolute; top: 0.5%;width: 100px; height: 100px; text-align: center; padding-top: 15px; box-sizing: border-box;font-size: 20px; border-radius: 30%;}
+.starmi_link_btn2 {background: #110b43; position: absolute; top: 0.3%;width: 100px; height: 100px; text-align: center; padding-top: 15px; box-sizing: border-box;font-size: 20px; border-radius: 30%;}
 .starmi_link_btn2:hover{background: #ccc;transition: 0.5s;}
 .starmi_link_btn2:hover a{color: black; transition: 0.5s;}
 .starmi_link_btn2 a{display:block;height: 100%;color: white;}
 
-.susanlogo{position: absolute; top: 0.5%;left: 50%;transform: translateX(-20px)}
+.susanlogo{position: absolute; top: 0.2%;left: 50%;transform: translateX(-20px)}
 
 
 
