@@ -81,6 +81,30 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
     
 
 
+/*이디야 링크*/
+
+.ediya_link_btn a {
+	position: absolute;
+	top:22%;
+	left:40%;
+	margin-left:27%;
+    background: #1e1f54;
+    width: 100px; height: 100px; box-sizing: border-box;
+    
+}
+
+.ediya_link_btn a:hover{ border-radius: 50%; transition: 0.3s;}
+
+.ediya_link_btn a{color: white; font-weight: bold;font-size: 20px; text-align: center;display: block;padding-top: 30px;}
+
+
+
+/*h3 */
+.h3_in {color: red;}
+
+
+
+
 /* 스타미피부과-링크 */
 
 .starmi_link_btn {
